@@ -553,7 +553,9 @@
 }
 
 
-
+.alti{
+    padding-bottom:70px;
+}
 .altibasliq{
     display: flex;
     flex-direction: column;
@@ -622,6 +624,39 @@
     font-size: 14px;
     font-weight:300;
     padding-bottom: 20px;
+}
+.yeddi{
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: url(image/counter-banner.jpg) no-repeat fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 127px 0 120px;
+}
+.qutularyeddi{
+    margin-left: 10%;
+    display: flex;
+}
+.qutuyeddi{
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left:auto;
+    margin-left:60px;
+}
+.k{
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-size: 60px;
+}
+.listing{
+    color:white;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 500;
 }
 
 
