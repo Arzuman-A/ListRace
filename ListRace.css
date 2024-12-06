@@ -15,7 +15,47 @@
     font-weight: bold; 
     font-style: normal;
 }
-
+basliqbir{
+    display: flex;
+}
+.ilkqutu{
+    padding-top: 15px;
+    padding-bottom:15px;
+}
+.ikinciqutu{
+    padding-top: 15px;
+    padding-bottom:15px;
+}
+.dil{
+    display: flex;
+}
+.basliqelaqe{
+    display: flex;
+}
+.basliqiki{
+    display: flex;
+    margin-left:900px;
+}
+.signin{
+    margin-right: 30px;
+    list-style-type: none;
+}
+.register{
+    margin-right: 30px;
+    list-style-type: none;
+}
+.liki{
+    margin-right: 30px;
+    list-style-type: none;
+}
+.select-opt{
+    margin-left: 30px;
+    list-style-type: none;
+}
+.basliqicon{
+    margin-left: 30px;
+    list-style-type: none;
+}
 .umumi{
     font-family:'poppins', sans-serif;
     display: flex;
@@ -60,6 +100,8 @@
     text-transform: capitalize;
     color: orangered;
 }
+
+
 
 .iki{
     background-image:url(image/download.jpg);
@@ -166,6 +208,8 @@
 .fa-magnifying-glass{
     margin-left: 5px;
 }
+
+
 .qutu{
     position: relative;
     background-color: white;
@@ -225,6 +269,7 @@
     justify-content: center;
     margin-top:80px;
 }
+
 
 .dord{
     margin-top:10%;
@@ -912,6 +957,313 @@
     margin-right: 40px;
 }
 
+
+
+
+@media (max-width: 1024px) {
+    .sira {
+        margin-right: 50px;
+    }
+    .List {
+        margin-left: 5%;
+        font-size: 18px;
+    }
+    .span {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sira {
+        flex-direction: column;
+        margin-right: 0;
+        align-items: center;
+    }
+    .biryazi {
+        font-size: 16px;
+        margin-right: 10px;
+    }
+    .List {
+        margin-left: 0;
+        font-size: 18px;
+    }
+    .span {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .bir {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .List {
+        font-size: 16px;
+    }
+    .span {
+        font-size: 16px;
+    }
+    .biryazi {
+        font-size: 14px;
+        margin-right: 8px;
+    }
+    .sira {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1024px) {
+    .best {
+        font-size: 50px;
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .find {
+        font-size: 18px;
+        margin-top: 30%;
+        margin-left: 15%;
+    }
+
+    .formlar {
+        margin-top: 35%;
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .form {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .best {
+        font-size: 40px;
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .find {
+        font-size: 16px;
+        margin-top: 30%;
+        margin-left: 10%;
+    }
+
+    .formlar {
+        margin-top: 40%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form {
+        width: 80%;
+        margin-bottom: 20px; 
+    }
+
+    .duyme1 {
+        width: 100%; 
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .best {
+        font-size: 30px;
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .find {
+        font-size: 14px;
+        margin-top: 20%;
+        margin-left: 5%;
+    }
+
+    .form1 {
+        font-size: 14px;
+    }
+
+    .formlar {
+        margin-top: 40%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form {
+        width: 90%;
+    }
+
+    .duyme1 {
+        width: 100%;
+    }
+}
+@media (max-width: 1024px) {
+    .qutular {
+        justify-content: space-between;
+        display: flex !important;
+        flex-direction: column;
+    }
+
+    .qutu {
+        width: 180px;
+        height: 150px;
+    }
+
+    .fa-landmark,
+    .fa-suitcase-rolling,
+    .fa-hotel,
+    .fa-capsules,
+    .fa-car-side {
+        font-size: 35px; 
+    }
+}
+
+@media (max-width: 768px) {
+    #content:d
+    .qutular {
+        justify-content: space-around; 
+        margin-top: 50px;
+    }
+
+    .qutu {
+        width: 150px; 
+        height: 140px;
+        margin-bottom: 15px; 
+    }
+
+    .fa-landmark,
+    .fa-suitcase-rolling,
+    .fa-hotel,
+    .fa-capsules,
+    .fa-car-side {
+        font-size: 30px; 
+    }
+
+    .Restaurant {
+        font-size: 14px; 
+    }
+
+    .listings {
+        font-size: 12px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .qutular {
+        flex-direction: column; 
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .qutu {
+        width: 100%;
+        height: 120px; 
+        margin-bottom: 20px; 
+    }
+
+    .fa-landmark,
+    .fa-suitcase-rolling,
+    .fa-hotel,
+    .fa-capsules,
+    .fa-car-side {
+        font-size: 25px; 
+    }
+
+    .Restaurant {
+        font-size: 12px; 
+    }
+
+    .listings {
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .qutu1 {
+        width: 45%;
+    }
+
+    .cevre1 {
+        width: 70px; 
+        height: 70px;
+        line-height: 70px;
+    }
+
+    .choose1 {
+        font-size: 18px; 
+    }
+
+    .lorem1 {
+        font-size: 14px;
+    }
+
+    .button1 {
+        width: 90px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .qutu1 {
+        width: 80%;
+    }
+
+    .cevre1 {
+        width: 60px; 
+        height: 60px;
+        line-height: 60px;
+    }
+
+    .choose1 {
+        font-size: 16px; 
+    }
+
+    .lorem1 {
+        font-size: 13px;
+    }
+
+    .button1 {
+        width: 80px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .qutular1 {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .qutu1 {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cevre1 {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .choose1 {
+        font-size: 14px;
+    }
+
+    .lorem1 {
+        font-size: 12px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .button1 {
+        width: 70px;
+        font-size: 9px; 
+    }
+}
 
 
 
