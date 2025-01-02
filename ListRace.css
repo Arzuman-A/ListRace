@@ -218,7 +218,7 @@ ul.dil select {
 .form1{
     height: 65px;
     width: 350px;
-    padding-left: 100px;
+    padding-left: 110px;
     padding-right: 70px;
     border:0;
     border-radius: 1px;
@@ -1134,6 +1134,35 @@ ul.dil select {
         display: flex;
         flex-direction:column;
     }
+    .qutuson2{
+        display: block;
+        float: left;
+        margin-left: 10px;
+    }
+    .i2{
+        margin-left: 0px;
+    }
+    .bes1{
+        margin-left:5px;
+    }
+    .bes2{
+        margin-left:5px;
+    }
+    .bes3{
+        margin-left:5px;
+    }
+    .bes4{
+        margin-left:5px;
+    }
+    .bes5{
+        margin-left:5px;
+    }
+    .bes6{
+        margin-left:5px;
+    }
+    .rating2{
+        margin-left:6px;
+    }
     .sekiliki{
         width:100%;
     } 
@@ -1252,8 +1281,8 @@ ul.dil select {
         flex-direction: column;
     }
     .REVIEW{
-        width:40%;
-        margin-left:200px;
+        width:60%;
+        margin-left:150px;
     }
     .qutularsekkiz{
         display: flex;
@@ -1267,7 +1296,12 @@ ul.dil select {
         margin-right: 30px;
     }
 }
-
+@media (max-width: 675px){
+    .qutu2{
+        width:80% ;
+        margin-left:-60px;
+    }
+}
 @media (max-width: 601px){
     .qutu2{
         width:85%;
@@ -1288,10 +1322,14 @@ ul.dil select {
         font-size: 10px;
     }
     .REVIEW{
-        margin-left:140px;
+        margin-left:100px;
     }
     .inputcontact{
-        width: 90%;
+        width: 70%;
+    }
+    .buttoncontact{
+        position: relative;
+        margin-top: 20px;
     }
     .register{
         padding: 5px 9px;
@@ -1308,6 +1346,10 @@ ul.dil select {
     .basliqelaqe{
         display: flex;
         flex-direction: column;
+    }
+    .qutu2{
+        width: 100%;
+        margin-left:-60px;
     }
 }
 @media (max-width: 480px) {
@@ -1332,14 +1374,22 @@ ul.dil select {
     .Restaurant{
         font-size: 12px;
     }
+    .form1{
+        width:190px;
+    }
+    .fa-list{
+        margin-top:46px;
+        margin-left:340px;
+    }
+    .fa-location-crosshairs{
+        margin-top: 145px;
+        margin-left:335px;
+    }
 }
 @media( max-width:400px){
     .menus{
         display: flex;
         justify-content: center;
-    }
-    .i2{
-        margin-left: 30px;
     }
 }
 @media (max-width:391px){
