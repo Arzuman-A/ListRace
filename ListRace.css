@@ -16,6 +16,8 @@
     font-style: normal;
 }
 body{
+    display: flex;
+    flex-direction: column;
     font-family: "Poppins";
 }
 
@@ -641,6 +643,7 @@ ul.dil select {
     display: flex;
     justify-content:space-between;
     margin-top: 20px;
+    padding-left: 20px;
 }
 .i2{
     margin-left: 180px;
@@ -768,7 +771,6 @@ ul.dil select {
     padding: 127px 0 120px;
 }
 .qutularyeddi{
-    margin-left: 10%;
     display: flex;
 }
 .LIST{
@@ -826,8 +828,6 @@ ul.dil select {
     margin-bottom: 30px;
     margin-right:30px;
     box-shadow: 0 0 5px rgba(71, 71, 71, .2);
-    transition: 3s;
-    height: auto;
     margin-left: 5%;
 }
 .ARTICLES:hover{
@@ -1050,17 +1050,26 @@ ul.dil select {
    }
    .altqutu2{
     display: block;
+    float: left;
    }
    .qutular2{
-    margin-left: 30%;
+    display: block;
+    float: left;
    }
    .sekiliki{
     width:100%;
    } 
    .qutu2{
-    width:45%;
+    width:90%;
+    margin-left:60%;
    }
 
+}
+@media (max-width: 1130px){
+    .qutu2{
+        width:90%;
+        margin-left:40%;
+       }
 }
 @media (max-width: 1060px){
     .form1{
@@ -1102,6 +1111,14 @@ ul.dil select {
         display:flex;
         flex-direction: column;
     }
+    .qutular1{
+        display: block;
+    }
+    .qutu1{
+        width: 33.3%;
+        float: left;
+        margin-left: 70px;
+    }
     .duyme1{
         margin-left: 60px;
         margin-top: 60px;
@@ -1130,50 +1147,41 @@ ul.dil select {
     .qutu{
         margin-right: 10px;
     }
-    .altqutu2{
-        display: flex;
-        flex-direction:column;
-    }
     .qutuson2{
-        display: block;
-        float: left;
-        margin-left: 10px;
+        padding-left:20px;
     }
     .i2{
         margin-left: 0px;
     }
     .bes1{
-        margin-left:5px;
+        margin-left:20px;
     }
     .bes2{
-        margin-left:5px;
+        margin-left:20px;
     }
     .bes3{
-        margin-left:5px;
+        margin-left:20px;
     }
     .bes4{
-        margin-left:5px;
+        margin-left:20px;
     }
     .bes5{
-        margin-left:5px;
+        margin-left:20px;
     }
     .bes6{
-        margin-left:5px;
+        margin-left:20px;
     }
     .rating2{
-        margin-left:6px;
+        margin-left:20px;
     }
     .sekiliki{
         width:100%;
     } 
-    .qutu2{
-        width:60%;
-    }
     .imgp{
-        margin-left: 30px;
+        margin-left:0px;
     }
     .tommy2{
-        margin-left: 30px;
+        margin-left: 20px;
     }
     .rating2{
         margin-left:10px;
@@ -1182,15 +1190,9 @@ ul.dil select {
         margin-left:10px;
     }
     .altiimg{
-        width:13%;
-        height: 13%;
+        width:15%;
+        height: 30%;
         border-radius:50%;
-    }
-    .qutularyeddi{
-        margin-left: 4%;
-    }
-    .qutularyeddi{
-        margin-left:4%;
     }
     .LISTS{
         display: flex;
@@ -1203,8 +1205,70 @@ ul.dil select {
     .LIST{
         margin-top: 30px;
     }
+    .qutularsekkiz{
+        display:block;
+        margin-left: 10%;
+    }
+    .ARTICLES{
+        width:35%;
+        float: left;
+    }
     .sira{
         margin-right: 50px;
+        margin-left: 50px;
+    }
+}
+@media (max-width:960px){
+    .qutu2{
+        margin-left:20%;
+    }
+}
+@media (max-width:885px){
+    .sonalton{
+        margin-left: 20%;
+    }
+}
+@media (max-width:860px){
+    .qutu2{
+        margin-left:10%;
+    }
+}
+@media (max-width: 850px){
+    .best{
+        font-size: 25px;
+        padding-left: 150px;
+        padding-right: 150px;
+        padding-top: 50px;
+    }
+    .find{
+        font-size: 18px;
+        font-weight: 200;
+    }
+    .k{
+        font-size: 40px;
+    }
+    .listing{
+        font-size: 18px;
+    }
+}
+@media (max-width: 796px){
+    .qutular2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .qutu2{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .qutularsekkiz{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+    .ARTICLES{
+        width: 50%;
     }
 }
 @media (max-width: 768px) {
@@ -1264,14 +1328,12 @@ ul.dil select {
         width:135px;
     }
     .qutular1{
-        display: block;
-        margin-left:20%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
     }
     .qutu1{
-        width:70% ;
-    }
-    .qutu2{
-        width: 60%;
+        width:50% ;
     }
     .imgp{
         margin-left:15px;
@@ -1284,34 +1346,24 @@ ul.dil select {
         width:60%;
         margin-left:150px;
     }
-    .qutularsekkiz{
-        display: flex;
-        flex-direction: column;
-        margin-left:20%;
-        width: 70%;
-    }
-    .sira{
-        display: flex;
-        flex-direction: column;
-        margin-right: 30px;
-    }
 }
-@media (max-width: 675px){
-    .qutu2{
-        width:80% ;
-        margin-left:-60px;
+@media (max-width:885px){
+    .sonalton{
+        margin-left: 10%;
+    }
+@media (max-width: 660px){
+    .sira{
+        display: block;
+        float: left;
     }
 }
 @media (max-width: 601px){
-    .qutu2{
-        width:85%;
-        margin-left: -30px;
-    }
-    .qutuson2{
-        margin-left: 10px;
+    .explorep2{
+        font-size: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
     .imgp{
-        margin-left: ;
         display: flex;
     }
     .img2{
@@ -1340,16 +1392,15 @@ ul.dil select {
     .select-opt{
         padding: 5px 9px;
     }
+    .ARTICLES{
+        width: 70%;
+    }
 }
   
 @media (max-width: 507px){
     .basliqelaqe{
         display: flex;
         flex-direction: column;
-    }
-    .qutu2{
-        width: 100%;
-        margin-left:-60px;
     }
 }
 @media (max-width: 480px) {
