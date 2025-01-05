@@ -456,6 +456,7 @@ ul.dil select {
     transition: 1s;
 }
 .qutu2{
+    position: relative;
     background-color: white;
     padding-bottom: 35px;
     margin-left:20px;
@@ -469,8 +470,9 @@ ul.dil select {
 }
 .gorunme2 {
     display: flex;
-    justify-content: space-between;
-    transform: translate(-50%, -50%); 
+    position: absolute;
+    bottom:290px; 
+    transform: translateX(-50%, -50%); 
     opacity: 0; 
     transform: translateY(30px);
     transition: opacity 0.3s ease, transform 0.3s ease; 
@@ -480,6 +482,7 @@ ul.dil select {
     transform: translateY(0);
 }
 .gorunmee2 {
+    margin-left:7px;
     padding: 5px 5px;
     background-color:orangered;
     color:white;
@@ -496,8 +499,8 @@ ul.dil select {
     color: white;
 }
 .Gorunme2{
+    margin-left: 230px;
     bottom:54%;
-    left:310px;
     transform: translate(-50%, -50%); 
     opacity: 0; 
     transform: translateY(30px);
@@ -765,6 +768,7 @@ ul.dil select {
     position: relative;
     display: flex;
     align-items: center;
+    justify-content: center;
     background: url(image/counter-banner.jpg) no-repeat fixed;
     background-position: center;
     background-size: cover;
@@ -1056,6 +1060,15 @@ ul.dil select {
     display: block;
     float: left;
    }
+   .gorunme2{
+    bottom: 300px;
+   }
+   .gorunmee2{
+    margin-left:7px;
+   }
+   .Gorunme2{
+    margin-left:205px;
+   }
    .sekiliki{
     width:100%;
    } 
@@ -1260,6 +1273,12 @@ ul.dil select {
     .qutu2{
         width: 100%;
         margin-left: 0%;
+    }
+    .gorunme2{
+        margin-left:7px;
+    }
+    .Gorunme2{
+        margin-left: 240px;
     }
     .qutularsekkiz{
         display: flex;
