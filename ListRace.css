@@ -1104,7 +1104,28 @@ ul.dil select {
         margin-left:425px ;
     }
 }
-
+@media (max-width: 1080px){
+    .form1{
+        margin-top:30px;
+        margin-left: 60px;
+    }
+    .what{
+        margin-top: 45px;
+        margin-left:70px;
+    }
+    .fa-list{
+        margin-top:51px;
+        margin-left:510px;
+    }
+    .location{
+        margin-left: 75px;
+        margin-top:140px;
+    }
+    .fa-location-crosshairs{
+        margin-top:140px;
+        margin-left:510px;
+    }
+}
 @media (max-width: 1024px) {
     .menus{
         margin-right: 50px;
